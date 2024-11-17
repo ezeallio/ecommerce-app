@@ -1,0 +1,85 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+}
+
+.img-name {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.name-price {
+  display: flex;
+  flex-direction: column;
+}
+
+.product-container {
+  max-width: 1000px;
+  width: 100%;
+  padding: 40px 20px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.product-container img {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 8px;
+  object-fit: cover;
+  margin-bottom: 30px;
+}
+
+.product-container .name {
+  font-size: 2.5em;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+  margin: 10px 0;
+}
+
+.product-container .price {
+  font-size: 1.8em;
+  color: #27ae60;
+  font-weight: bold;
+  text-align: center;
+  margin: 10px 0;
+}
+
+.product-container .description {
+  font-size: 1em;
+  color: #666;
+  line-height: 1.6;
+  margin: 20px 0;
+  text-align: justify;
+}
+
+.product-container .sku {
+  font-size: 1em;
+  color: #999;
+  text-align: center;
+  margin-top: 20px;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #333333;
+  margin: 20px auto;
+  line-height: 1.4;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
